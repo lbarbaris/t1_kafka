@@ -1,0 +1,13 @@
+spring:
+  application:
+   name: t1_consumer
+  kafka:
+    consumer:
+      group-id: "default"
+    bootstrap-servers: kafka:29092
+
+server:
+  port: 8081
+
+topic:
+  name: weather_topic
